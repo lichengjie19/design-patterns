@@ -1,0 +1,23 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+/build
+target/
+/.idea
+.idea
+*.iml
+.DS_Store
+local.properties
+release.properties
+*.releaseBackup
+.project
+.classpath
+.settings
+catalina.base_IS_UNDEFINED
+log.path_IS_UNDEFINED
