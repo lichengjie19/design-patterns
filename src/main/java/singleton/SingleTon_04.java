@@ -1,6 +1,7 @@
 package singleton;
 
 /**
+ * 双重校验锁-DCL
  * @author licjd
  * @date 2020/08/15
  */
