@@ -34,9 +34,23 @@
 
 #### 3、策略 - Strategy
 
-JDK 里面典型两个接口:
+> src/main/java/stragety
 
-- public interface Comparator<T>;
+JDK 里面典型~~两个~~接口:
+
+- ~~public interface Comparator<T>;
+    比较两个 Object~~
 - public interface Comparable<T>;
+    与另一个比较
+
+定义一组算法，将每个算法都封装起来，并且是它们之间可以互换。
+
+**使用的就是面向对象的继承和多态机制**
+
+==注意==
+
+策略模式很容易造成策略类膨胀（每一个策略都是一个类，复用的可能性很小，类数量增多）。
+建议：如果系统中的一个策略家族的具体策略数量超过 4 个，则需要考虑使用混合模式，解决策略类膨胀和对外暴露问题，否则日后的系统维护就会成为一个烫手山芋。
+
 
 
